@@ -37,7 +37,7 @@ Project setup dan WebDriver IO Installation
     -> Run: 'allure open' untuk membuka report Allure .html di browser
 
 Note:
-- package.json: file yang berisi informasi tentang proyek, termasuk dependensi dan script yang dapat
+- package.json: file yang berisi informasi tentang proyek, termasuk dependensi dan script yang dapat 
 - package.lock.json: file yang berisi informasi tentang dependensi yang telah terinstal
 
 - async -> non-block: digunakan untuk menjalankan kode di mana kode selanjutnya dapat dilanjutkan tanpa harus menunggu kode sebelumnya selesai (berjalan di latar belakang).
