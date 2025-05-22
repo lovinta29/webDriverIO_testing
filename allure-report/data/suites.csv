@@ -1,3 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","9615","should open browser and access page","","Thu May 22 16:12:05 WIB 2025","failed","Thu May 22 16:12:14 WIB 2025","","Open WebdriverIO page","",""
-"","8502","should login with valid credentials","","Thu May 22 16:12:05 WIB 2025","passed","Thu May 22 16:12:13 WIB 2025","","My Login application","",""
