@@ -3,10 +3,11 @@
 Project setup dan WebDriver IO Installation   
 1. Create new project and open in code editor (Visual Studio Code)
    
-2. Open terminal and run command: npm init -y
+2. Open terminal and run command: 'npm init -y'
    
-3. Run: npm init wdio
+3. Run: 'npm init wdio@latest .'
     - This will create a new file called wdio.conf.js
+    - CLI (Command Line Interface): a tool that allows you to run commands from the terminal
     - Run: npm ls wdio to check wdio version
     - Plugin tambahan:
       a. wait-for: plugin untuk menunggu elemen atau kondisi tertentu muncul sebelum melanjutkan tes.
@@ -21,7 +22,7 @@ Project setup dan WebDriver IO Installation
     - WDIO Configuration: konfigurasi dasar untuk pengujian (dapat memilih opsi berbeda sesuai kebutuhan)
    ![alt text](image.png)
     - Run: npm.cmd pkg set scripts.wdio="wdio run ./wdio.conf.js" jika muncul peringatan 
-    "Couldn't add script to package.json: "spawn EINVAL", you can add it manually"
+    "Couldn't add script to package.json: "spawn EINVAL", you can add it manually" 
 
 4. To run the test:
    a. npm run wdio : menjalankan test secara otomatis dari file package.json dalam script
@@ -36,7 +37,10 @@ Project setup dan WebDriver IO Installation
     -> Run: 'allure open' untuk membuka report Allure .html di browser
 
 Note:
-- package.json: 
-- package.lock.json: 
+- package.json: file yang berisi informasi tentang proyek, termasuk dependensi dan script yang dapat
+- package.lock.json: file yang berisi informasi tentang dependensi yang telah terinstal
+
+- async -> non-block: digunakan untuk menjalankan kode di mana kode selanjutnya dapat dilanjutkan tanpa harus menunggu kode sebelumnya selesai (berjalan di latar belakang).
+- sync -> block: digunakan untuk menjalankan kode secara berurutan dan harus menunggu hasilnya selesai sebelum lanjut ke kode berikutnya.
     
 

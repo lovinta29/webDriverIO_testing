@@ -1,6 +1,7 @@
 # Don't push this to GitHub
 /node_modules
-
+/allure-results
+/allure-report
 
 # Push this to GitHub although its folder upload is disabled
 
