@@ -1,12 +1,8 @@
-# Don't upload this to GitHub
+# Don't push this to GitHub
 /node_modules
-/allure-results
-/allure-report
 
-# Upload this to GitHub although its folder upload is disabled
-!/allure-report/index.html
-!/allure-report/styles.css
-!/allure-report/favicon.png
-!/allure-report/manifest.json
+
+# Push this to GitHub although its folder upload is disabled
+
 
 
